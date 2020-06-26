@@ -18,9 +18,41 @@
         <label>Je email: <input type="email" name="email" /></label>
       </p>
       <p>
-        <label>Boodschap: <textarea name="message"></textarea></label>
+        <label>Je telefoon nummer:<input type="tel" name="telefoon" /></label>
       </p>
       <p>
+        <lable>Je leeftijd: <input type="number" name="leeftijd" /></lable>
+      </p>
+      <lable>Je geboortedatum: <input type="date" name="geboorte" /></lable>
+      <p>
+        <lable id5="geslacht"
+          >Je geslacht:
+          <input type="radio" name="geslacht" for="male" />man<br />
+          <input type="radio" name="geslacht" for="vrouw" />vrouw<br />
+          <input type="radio" name="geslacht" for="anders" />anders<br />
+          <input type="radio" name="geslacht" for="none" />zeg ik liever niet<br />
+        </lable>
+      </p>
+      <lable
+        >Je favoriete keuken
+        <input type="checkbox" name="keuken" for="frans" />frans<br />
+        <input type="checkbox" name="keuken" for="spaans" />spaans<br />
+        <input type="checkbox" name="keuken" for="italiaans" />italiaans<br />
+        <input type="checkbox" name="keuken" for="arabisch" />arabsich<br />
+      </lable>
+      <lable
+        >Je favoriete kleur voor een short
+        <input type="color" name="short" /><br />
+      </lable>
+      <lable>Korte biografie: <textarea name="bio"></textarea></lable><br />
+      <label>Upload hier je laatste recept <input type="file" /></label><br />
+      <label
+        >Plaats hier een link naar je recepten-website
+        <input type="url" /></label
+      ><br />
+      <label>Klik hier om je gegevens te <input type="reset" /></label><br />
+      <p>
+        <label> Ingevuld? Klik hier om je formulier te versturen</label><br />
         <button type="Stuur">Stuur</button>
       </p>
     </form>
